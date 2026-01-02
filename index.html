@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <header class="flex justify-between items-center px-10 py-6">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded flex items-center justify-center">
+          <img src="./src/images/logo.png" alt="" />
+        </div>
+        <span class="font-primary font-bold text-xl text-green-800"
+          >GreenPetals</span
+        >
+      </div>
+      <nav class="flex gap-8 text-sm font-medium">
+        <a href="#" class="hover:text-green-600">Shop</a>
+        <a href="#" class="hover:text-green-600">About</a>
+        <a href="#" class="hover:text-green-600">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="flex flex-col items-center gap-6 px-4 py-12 text-center">
+        <h1
+          class="text-3xl font-primary tracking-tight sm:text-4xl md:text-5xl"
+        >
+          Grow Something You’ll Love
+        </h1>
+
+        <div class="relative w-full max-w-lg">
+          <span
+            class="pointer-events-none absolute inset-y-0 left-4 flex items-center text-gray-400"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-5 w-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+              />
+            </svg>
+          </span>
+
+          <input
+            type="text"
+            placeholder="Search succulents..."
+            class="w-full rounded-2xl border border-gray-200 bg-white py-3 pl-12 pr-4 text-sm shadow-sm focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-200"
+          />
+        </div>
+      </div>
+      <!-- img -->
+      <section class="mx-auto max-w-6xl px-4">
+        <div class="columns-2 gap-4 lg:columns-3">
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src="./src/images/plant-1.webp"
+          />
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src="./src/images/plant-3.webp"
+          />
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src="./src/images/plant-2.jpg"
+          />
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src="./src/images/plant-4.png"
+          />
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src="./src/images/plant-6.jpg"
+          />
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src="./src/images/plant-5.avif"
+          />
+        </div>
+      </section>
+      <section class="mx-auto max-w-6xl px-4 py-16 space-y-24">
+        <!-- Item 1 -->
+
+        <div class="flex flex-col gap-8 md:flex-row md:items-center">
+          <img
+            class="w-full md:w-1/2 rounded-xl"
+            src="./src/images/plant-7.avif"
+          />
+          <div>
+            <h2 class="text-2xl font-bold text-green-600 mb-4">Philodendron</h2>
+            <p class="text-gray-600">
+              Philodendron is a popular tropical houseplant known for its
+              glossy, heart-shaped leaves. It is easy to care for and adapts
+              well to indoor environments, and helps create a fresh.
+            </p>
+          </div>
+        </div>
+
+        <!-- Item 2 (reverse) -->
+        <div class="flex flex-col gap-8 md:flex-row-reverse md:items-center">
+          <img
+            class="w-full md:w-1/2 rounded-xl"
+            src="./src/images/plant-8.avif"
+          />
+          <div>
+            <h2 class="text-2xl font-bold text-green-600 mb-4">Guzmania</h2>
+            <p class="text-gray-600">
+              Guzmania is a tropical flowering plant known for its bright red,
+              star-shaped bracts and long glossy leaves.It is commonly grown as
+              an indoor decoarative plant and adds a bold.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="mx-auto max-w-6xl px-4 pb-16">
+        <h2 class="text-2xl font-primary font-bold text-green-600 mb-6">
+          Bring Nature Home. Watch It Grow
+        </h2>
+
+        <div class="columns-2 gap-4">
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src="./src/images/plant-9.png"
+          />
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src=" ./src/images/plant-10.png"
+          />
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src="./src/images/plant-11.png"
+          />
+          <img
+            class="mb-4 w-full rounded-xl break-inside-avoid"
+            src="./src/images/plant-13.png"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-green-800 text-white py-12 px-10">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="flex flex-col items-center gap-2">
+          <!-- Title above image -->
+          <span class="font-bold text-xl text-white"> GreenPetals </span>
+
+          <!-- Image -->
+          <div class="w-24 h-24">
+            <img
+              src="./src/images/logo.png"
+              alt="logo-plant"
+              class="w-full h-full object-contain"
+            />
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-bold mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-sm text-green-100">
+            <li><a href="#" class="hover:underline">Home</a></li>
+            <li><a href="#" class="hover:underline">Shop</a></li>
+            <li><a href="#" class="hover:underline">About</a></li>
+            <li><a href="#" class="hover:underline">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold mb-4">Contact</h4>
+          <ul class="space-y-2 text-sm text-green-100">
+            <li>Email: hello@plantshop.com</li>
+            <li>Phone: +855 123 456</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="border-t border-green-700 mt-10 pt-6 text-center text-xs text-green-200"
+      >
+        © 2025 PlantShop. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
