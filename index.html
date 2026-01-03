@@ -54,7 +54,7 @@
           <input
             type="text"
             placeholder="Search succulents..."
-            class="w-full rounded-2xl border border-gray-200 bg-white py-3 pl-12 pr-4 text-sm shadow-sm focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-200"
+            class="w-full rounded-2xl border border-green-400 bg-white py-3 pl-12 pr-4 text-sm shadow-sm focus:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-200"
           />
         </div>
       </div>
@@ -64,26 +64,32 @@
           <img
             class="mb-4 w-full rounded-xl break-inside-avoid"
             src="./src/images/plant-1.webp"
+            alt="plant-1"
           />
           <img
             class="mb-4 w-full rounded-xl break-inside-avoid"
             src="./src/images/plant-3.webp"
+            alt="plant-3"
           />
           <img
             class="mb-4 w-full rounded-xl break-inside-avoid"
             src="./src/images/plant-2.jpg"
+            alt="plant-2"
           />
           <img
             class="mb-4 w-full rounded-xl break-inside-avoid"
             src="./src/images/plant-4.png"
+            alt="plant-4"
           />
           <img
             class="mb-4 w-full rounded-xl break-inside-avoid"
             src="./src/images/plant-6.jpg"
+            alt="plant-6"
           />
           <img
             class="mb-4 w-full rounded-xl break-inside-avoid"
             src="./src/images/plant-5.avif"
+            alt="plant-5"
           />
         </div>
       </section>
@@ -97,7 +103,7 @@
           />
           <div>
             <h2 class="text-2xl font-primary font-bold text-green-600 mb-4">Philodendron</h2>
-            <p class="text-gray-600">
+            <p class="text-gray-600 font-primary">
               Philodendron is a popular tropical houseplant known for its
               glossy, heart-shaped leaves. It is easy to care for and adapts
               well to indoor environments, and helps create a fresh.
@@ -112,8 +118,8 @@
             src="./src/images/plant-8.avif"
           />
           <div>
-            <h2 class="text-2xl font-primary font-bold text-green-600 mb-4">Guzmania</h2>
-            <p class="text-gray-600">
+            <h2 class="text-2xl font-primary fofont-primarynt-bold text-green-600 mb-4">Guzmania</h2>
+            <p class="text-gray-600 font-primary">
               Guzmania is a tropical flowering plant known for its bright red,
               star-shaped bracts and long glossy leaves.It is commonly grown as
               an indoor decoarative plant and adds a bold.
@@ -125,26 +131,11 @@
         <h2 class="text-2xl font-primary font-bold text-green-600 mb-6">
           Bring Nature Home. Watch It Grow
         </h2>
-
-        <div class="columns-2 gap-4 mx-auto">
-          <img
-            class="mb-4 w-full rounded-xl break-inside-avoid"
-            src="./src/images/plant-9.png"
-          />
-
-          <div class="columns-2 gap-4 break-inside-avoid">
-            <img
-              class="mb-4 w-full rounded-xl"
-              src="./src/images/plant-10.png"
-            />
-            <img
-              class="mb-4 w-full rounded-xl"
-              src="./src/images/plant-11.png"
-            />
-          </div>
-          <div class="break-inside-avoid m-0">
-            <img class="w-1/2 rounded-xl" src="./src/images/plant-13.png" />
-          </div>
+        <div class="grid grid-cols-3 gap-5">
+          <img class="rounded-xl w-full col-span-2" src="./src/images/plant-9.png" alt="plant-9">
+          <img class="rounded-xl w-full row-span-2" src=" ./src/images/plant-13.png" alt="plant-13">
+          <img class="rounded-xl w-full" src="./src/images/plant-10.png" alt="plant-10">
+          <img class="rounded-xl w-full" src="./src/images/plant-11.png" alt="plant-11">
         </div>
       </section>
     </main>
@@ -154,7 +145,6 @@
         <div class="flex flex-col items-center gap-2">
           <!-- Title above image -->
           <span class="font-bold font-primary text-xl text-white"> GreenPetals </span>
-
           <!-- Image -->
           <div class="w-24 h-24">
             <img
